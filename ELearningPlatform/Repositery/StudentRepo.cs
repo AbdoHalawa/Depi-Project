@@ -1,4 +1,4 @@
-﻿using DEPI_Project.Models;
+using DEPI_Project.Models;
 using ELearningPlatform.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -15,16 +15,17 @@ namespace DEPI_Project.Repositories
             _context = context;
             _userManager = userManager;
         }
-        public async Task Add_Student(Student student, ApplicationUser studentAccount)
+        public async Task<IdentityResult> Add_Student(Student student, ApplicationUser studentAccount)
         {
             _context.Students.Add(student);
 
             // Create the student account
-            var result = await _userManager.CreateAsync(studentAccount);
+            var result = await _userManager.CreateAsync(studentAccount,studentAccount.PasswordHash);
             if (result.Succeeded)
             {
                 student.ApplicationUser_Id=studentAccount.Id;
             }
+            return result;
         }
 
 
