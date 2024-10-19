@@ -4,7 +4,7 @@ namespace ELearning.Repositories
 {
     public interface IinstructorRepo
     {
-        public Task Add_Instructor(Instructor INstructor, ApplicationUser InstructorAccount);
+       public async Task<IdentityResult>(Instructor INstructor, ApplicationUser InstructorAccount);
         public void Update_Instructor(int id, Instructor Instructor, ApplicationUser InstructorAccount);
         public Task Delete_Instructor(Instructor instructor, ApplicationUser IsntructorAccount);
         public Instructor Get_InstructorByID(int id);
