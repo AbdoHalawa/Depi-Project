@@ -1,7 +1,11 @@
-﻿using DEPI_Project.Models;
+using DEPI_Project.Models;
 using DEPI_Project.View_Models;
 using ELearningPlatform.Models;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
+
 
 namespace ELearning.Repositories
 {
@@ -14,16 +18,16 @@ namespace ELearning.Repositories
             _context = context;
             _userManager = userManager;
         }
-        public async Task Add_Instructor(Instructor instructor, ApplicationUser InstructorAccount)
+        public async Task<IdentityResult> Add_Instructor(Instructor instructor, ApplicationUser InstructorAccount)
         {
+			 IdentityResult result = await _userManager.CreateAsync(InstructorAccount,InstructorAccount.PasswordHash);
             _context.Instructors.Add(instructor);
-
-            // Create the student account
-            var result = await _userManager.CreateAsync(InstructorAccount);
-            if (result.Succeeded)
+			// Create the student account
+			if (result.Succeeded)
             {
                 instructor.ApplicationUser_Id = InstructorAccount.Id;
             }
+            return result;
         }
 
         public async Task Delete_Instructor(Instructor instructor, ApplicationUser IsntructorAccount)
