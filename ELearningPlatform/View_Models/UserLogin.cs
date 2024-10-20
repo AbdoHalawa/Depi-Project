@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ELearning.View_Models
+namespace ELearningPlatform.View_Models
 {
 	public class UserLogin
 	{

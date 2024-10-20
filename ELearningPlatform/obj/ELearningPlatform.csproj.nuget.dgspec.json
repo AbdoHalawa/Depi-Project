@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Samir\\Source\\Repos\\Depi-Project\\ELearningPlatform\\ELearningPlatform.csproj": {}
+    "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\ELearningPlatform.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Samir\\Source\\Repos\\Depi-Project\\ELearningPlatform\\ELearningPlatform.csproj": {
+    "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\ELearningPlatform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Samir\\Source\\Repos\\Depi-Project\\ELearningPlatform\\ELearningPlatform.csproj",
+        "projectUniqueName": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\ELearningPlatform.csproj",
         "projectName": "ELearningPlatform",
-        "projectPath": "C:\\Users\\Samir\\Source\\Repos\\Depi-Project\\ELearningPlatform\\ELearningPlatform.csproj",
+        "projectPath": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\ELearningPlatform.csproj",
         "packagesPath": "C:\\Users\\Samir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Samir\\Source\\Repos\\Depi-Project\\ELearningPlatform\\obj\\",
+        "outputPath": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Samir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.10, )"

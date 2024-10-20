@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EZige37AketOFzlChA4M1cwWWTVZUQau8Q7KjkOWGTQ=",
+  "Hash": "NN6QwWfONnJQWoEvw25zRNQz1nojKdZLmmOzsjnIlwQ=",
   "Source": "ELearningPlatform",
   "BasePath": "_content/ELearningPlatform",
   "Mode": "Default",
@@ -150,6 +150,25 @@
       "OriginalItemSpec": "wwwroot\\documents\\245eb3c1-361c-4b75-8858-9eb51099cfa9_Mohamed Samir Saad _Final Assessment.pdf"
     },
     {
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\documents\\2a78a9ce-832e-4271-a625-3470e9c49a17_Mohamed_Samir_Saad_CV.pdf",
+      "SourceId": "ELearningPlatform",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
+      "BasePath": "_content/ELearningPlatform",
+      "RelativePath": "documents/2a78a9ce-832e-4271-a625-3470e9c49a17_Mohamed_Samir_Saad_CV.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\documents\\2a78a9ce-832e-4271-a625-3470e9c49a17_Mohamed_Samir_Saad_CV.pdf"
+    },
+    {
       "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\documents\\322464ec-a5a4-4db4-802a-cdffea7ff67c_Mohamed Samir Saad _Final Assessment.pdf",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
@@ -167,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\documents\\322464ec-a5a4-4db4-802a-cdffea7ff67c_Mohamed Samir Saad _Final Assessment.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\documents\\fc58e84a-44d4-4752-9925-5f34580e2e2e_Mohamed_Samir_Saad_CV.pdf",
+      "SourceId": "ELearningPlatform",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
+      "BasePath": "_content/ELearningPlatform",
+      "RelativePath": "documents/fc58e84a-44d4-4752-9925-5f34580e2e2e_Mohamed_Samir_Saad_CV.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\documents\\fc58e84a-44d4-4752-9925-5f34580e2e2e_Mohamed_Samir_Saad_CV.pdf"
     },
     {
       "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\documents\\Mohamed_Samir_Saad_USP Analysis.pdf",
@@ -262,6 +300,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\download (1).jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\img\\download.jpeg",
+      "SourceId": "ELearningPlatform",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
+      "BasePath": "_content/ELearningPlatform",
+      "RelativePath": "img/download.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\download.jpeg"
     },
     {
       "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\js\\main.js",

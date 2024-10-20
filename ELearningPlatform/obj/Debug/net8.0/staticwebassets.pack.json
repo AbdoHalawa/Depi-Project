@@ -25,12 +25,20 @@
       "PackagePath": "staticwebassets\\documents\\245eb3c1-361c-4b75-8858-9eb51099cfa9_Mohamed Samir Saad _Final Assessment.pdf"
     },
     {
+      "Id": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\documents\\2a78a9ce-832e-4271-a625-3470e9c49a17_Mohamed_Samir_Saad_CV.pdf",
+      "PackagePath": "staticwebassets\\documents\\2a78a9ce-832e-4271-a625-3470e9c49a17_Mohamed_Samir_Saad_CV.pdf"
+    },
+    {
       "Id": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\documents\\322464ec-a5a4-4db4-802a-cdffea7ff67c_Mohamed Samir Saad _Final Assessment.pdf",
       "PackagePath": "staticwebassets\\documents\\322464ec-a5a4-4db4-802a-cdffea7ff67c_Mohamed Samir Saad _Final Assessment.pdf"
     },
     {
       "Id": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\documents\\Mohamed_Samir_Saad_USP Analysis.pdf",
       "PackagePath": "staticwebassets\\documents\\Mohamed_Samir_Saad_USP Analysis.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\documents\\fc58e84a-44d4-4752-9925-5f34580e2e2e_Mohamed_Samir_Saad_CV.pdf",
+      "PackagePath": "staticwebassets\\documents\\fc58e84a-44d4-4752-9925-5f34580e2e2e_Mohamed_Samir_Saad_CV.pdf"
     },
     {
       "Id": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\favicon.ico",
@@ -47,6 +55,10 @@
     {
       "Id": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\img\\download (1).jpeg",
       "PackagePath": "staticwebassets\\img\\download (1).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\img\\download.jpeg",
+      "PackagePath": "staticwebassets\\img\\download.jpeg"
     },
     {
       "Id": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\js\\main.js",

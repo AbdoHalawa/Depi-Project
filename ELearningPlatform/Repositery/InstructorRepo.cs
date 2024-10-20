@@ -1,13 +1,13 @@
-using DEPI_Project.Models;
-using DEPI_Project.View_Models;
+using ELearningPlatform.View_Models;
 using ELearningPlatform.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using ELearningPlatform.Repositery;
 
 
-namespace ELearning.Repositories
+namespace ELearningPlatForm.Repositery
 {
     public class InstructorRepo : IinstructorRepo
     {

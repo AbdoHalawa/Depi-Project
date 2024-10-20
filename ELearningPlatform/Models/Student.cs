@@ -23,9 +23,9 @@ namespace ELearningPlatform.Models
 
         [PersonalData]
         public string? Country { get; set; }
+        public List<Course_Students> Course_Students { get; set; } = new List<Course_Students>();
         [ForeignKey(nameof(ApplicationUser))]
         public int? ApplicationUser_Id { get; set; }
-        public List<Course_Students>? Course_Students { get; set;}
         public ApplicationUser? User { get; set; }
     }
 }

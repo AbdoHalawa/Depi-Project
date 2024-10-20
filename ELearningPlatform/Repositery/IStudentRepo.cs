@@ -1,10 +1,11 @@
-﻿using DEPI_Project.Models;
+﻿using ELearningPlatform.Models;
+using Microsoft.AspNetCore.Identity;
 
-namespace DEPI_Project.Repositories
+namespace ELearningPlatForm.Repositery
 {
     public interface IStudentRepo
     {
-        public async Task<IdentityResult> Add_Student(Student Course, ApplicationUser StudentAccount);
+        public Task<IdentityResult> Add_Student(Student Course, ApplicationUser StudentAccount);
         public void Update_Student(int id, Student student, ApplicationUser StudentAccount);
         public Task Delete_Student(Student student, ApplicationUser StudentAccount);
         public Student Get_StudentByID(int id);

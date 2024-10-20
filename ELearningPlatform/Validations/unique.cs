@@ -1,10 +1,9 @@
-﻿using DEPI_Project.Models;
-using DEPI_Project.View_Models;
-using ELearning.View_Models;
+﻿using ELearningPlatform.Models;
+using ELearningPlatform.View_Models;
 using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
 
-namespace ELearning.Validations
+namespace ELearningPlatform.Validations
 {
 	public class UniqueStudentNameAttribute : ValidationAttribute
 	{

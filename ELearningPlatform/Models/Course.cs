@@ -21,7 +21,9 @@ namespace ELearningPlatform.Models
             public IFormFile? Crs_Cover { get; set; }
             public string? Crs_Cover_Path { get; set; }
             public List<Course_Lectures> Crs_Lectures { get; set; } = new List<Course_Lectures>();
-        }
+            public List<Course_Students> Crs_Students { get; set; } = new List<Course_Students>();
+            public List<Course_Codes> Crs_Codes { get; set;} = new List<Course_Codes>();
+    }
     }
 
 

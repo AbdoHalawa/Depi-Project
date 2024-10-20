@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
-using ELearning.Validations;
+using ELearningPlatform.Validations;
 
-namespace ELearning.View_Models
+namespace ELearningPlatform.View_Models
 {
     public class InstructorAccount
     {

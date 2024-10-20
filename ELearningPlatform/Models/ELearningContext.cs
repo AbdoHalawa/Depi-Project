@@ -18,7 +18,8 @@ namespace ELearningPlatform.Models
         public DbSet<Lecture_Exams> Exams { get; set; }
         public DbSet<Course_Lectures> Lectures { get; set; }
         public DbSet<Exam_Questions> Questions { get; set; }
-
+        public DbSet<Course_Codes> Codes { get; set; }
+        public DbSet<ApplicationUser> Users { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -38,11 +39,6 @@ namespace ELearningPlatform.Models
                 .OnDelete(DeleteBehavior.Cascade);  // Optional: Cascade delete
 
             // Other model configurations...
-            modelBuilder.Entity<ApplicationUser>()
-                 .HasOne(a => a.Student)
-                 .WithOne(student => student.User)
-                 .HasForeignKey<Student>(student => student.ApplicationUser_Id)
-                 .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<ApplicationUser>()
                  .HasOne(a => a.Instructor)
@@ -54,16 +50,11 @@ namespace ELearningPlatform.Models
             modelBuilder.Entity<ApplicationUser>()
                 .Property(u => u.Id)
                 .ValueGeneratedOnAdd();
+            modelBuilder.Entity<Course_Students>().HasKey("Student_ID", "Course_ID", "Code_ID");
         }
 
 
     }
-    //protected override void OnModelCreating(ModelBuilder modelBuilder)
-    //{
-    //    modelBuilder.Entity<Ins_Dept>().HasKey("Ins_id", "Dept_id");
-    //    modelBuilder.Entity<Dept_Course>().HasKey("Course_id", "Dept_id");
-    //    modelBuilder.Entity<Ins_Course>().HasKey("Course_Id", "Ins_Id");
-    //    modelBuilder.Entity<Student_Course>().HasKey("Course_Id", "Student_Id");
-    //}
+
 }
 

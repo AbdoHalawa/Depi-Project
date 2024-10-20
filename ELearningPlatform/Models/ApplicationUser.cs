@@ -7,6 +7,5 @@ namespace ELearningPlatform.Models
     {
         public Admin? Admin { get; set; }
         public Instructor? Instructor { get; set; }
-        public Student? Student { get; set; }        
     }
 }

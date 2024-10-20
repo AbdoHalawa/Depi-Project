@@ -20,7 +20,6 @@ namespace ELearningPlatform.Models
 
         [PersonalData]
         public string? Country { get; set; }
-        public List<Course>? Courses { get; set; }
         [ForeignKey(nameof(ApplicationUser))]
         public int? ApplicationUser_Id { get; set; }
         public ApplicationUser? User { get; set; }

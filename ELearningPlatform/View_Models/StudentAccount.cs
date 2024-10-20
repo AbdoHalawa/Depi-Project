@@ -1,8 +1,8 @@
-﻿using ELearning.Validations;
+﻿using ELearningPlatform.Validations;
 using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
 
-namespace DEPI_Project.View_Models
+namespace ELearningPlatform.View_Models
 {
     public class StudentAccount
     {

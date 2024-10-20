@@ -1,10 +1,10 @@
-using DEPI_Project.Models;
 using ELearningPlatform.Models;
+using ELearningPlatForm.Repositery;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Cryptography;
 
-namespace DEPI_Project.Repositories
+namespace ELearningPlatform.Repositery
 {
     public class StudentRepo : IStudentRepo
     {
