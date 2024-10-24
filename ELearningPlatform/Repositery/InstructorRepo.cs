@@ -20,10 +20,10 @@ namespace ELearningPlatForm.Repositery
         }
         public async Task<IdentityResult> Add_Instructor(Instructor instructor, ApplicationUser InstructorAccount)
         {
-            IdentityResult result = await _userManager.CreateAsync(InstructorAccount, InstructorAccount.PasswordHash);
+			 IdentityResult result = await _userManager.CreateAsync(InstructorAccount,InstructorAccount.PasswordHash);
             _context.Instructors.Add(instructor);
-            // Create the student account
-            if (result.Succeeded)
+			// Create the student account
+			if (result.Succeeded)
             {
                 instructor.ApplicationUser_Id = InstructorAccount.Id;
             }

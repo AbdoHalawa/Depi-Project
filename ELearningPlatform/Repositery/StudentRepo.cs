@@ -20,10 +20,10 @@ namespace ELearningPlatform.Repositery
             _context.Students.Add(student);
 
             // Create the student account
-            var result = await _userManager.CreateAsync(studentAccount, studentAccount.PasswordHash);
+            var result = await _userManager.CreateAsync(studentAccount,studentAccount.PasswordHash);
             if (result.Succeeded)
             {
-                student.ApplicationUser_Id = studentAccount.Id;
+                student.ApplicationUser_Id=studentAccount.Id;
             }
             return result;
         }
@@ -53,28 +53,28 @@ namespace ELearningPlatform.Repositery
         public List<Student> Get_AllStudentsByCourseID(int courseID)
         {
             return (from student in _context.Students
-                    join crs in _context.Course_Students
-                    on student.Id equals crs.Student_ID
-                    join course in _context.Courses
-                    on crs.Course_ID equals course.Id
-                    select student).ToList();
+                   join crs in _context.Course_Students
+                   on student.Id equals crs.Student_ID
+                   join course in _context.Courses
+                   on crs.Course_ID equals course.Id
+                   select student).ToList();
         }
 
         public Student Get_StudentByID(int id)
         {
 
             return (from student in _context.Students
-                    where student.Id == id
-                    select student).FirstOrDefault();
+                   where student.Id == id
+                   select student).FirstOrDefault();
         }
-        public ApplicationUser Get_Account(int? id)
+        public ApplicationUser Get_Account(int ?id)
         {
             return (from account in _userManager.Users
                     where account.Id == id
                     select account
                     ).FirstOrDefault();
         }
-        public void Update_Student(int id, Student student, ApplicationUser StudentAccount)
+        public void Update_Student(int id, Student student,ApplicationUser StudentAccount)
         {
             Student old_Data = _context.Students.Where(s => s.Id == id).FirstOrDefault();
             if (old_Data != null)
@@ -84,18 +84,18 @@ namespace ELearningPlatform.Repositery
                 old_Data.City = student.City;
                 old_Data.Country = student.Country;
             }
-            ApplicationUser old_Acount = (from _student in _context.Students
-                                          join studentAcc in _context.Users
-                                          on _student.ApplicationUser_Id equals studentAcc.Id
-                                          select studentAcc).FirstOrDefault();
+            ApplicationUser old_Acount=(from _student in _context.Students
+                                       join studentAcc in _context.Users
+                                       on _student.ApplicationUser_Id equals studentAcc.Id
+                                       select studentAcc).FirstOrDefault();
             if (old_Acount != null)
             {
-                old_Acount.Email = StudentAccount.Email;
-                old_Acount.PasswordHash = StudentAccount.PasswordHash;
-                old_Acount.PhoneNumber = StudentAccount.PhoneNumber;
-                old_Acount.UserName = StudentAccount.UserName;
+                old_Acount.Email= StudentAccount.Email;
+                old_Acount.PasswordHash= StudentAccount.PasswordHash;
+                old_Acount.PhoneNumber= StudentAccount.PhoneNumber;
+                old_Acount.UserName= StudentAccount.UserName;
             }
-
+            
         }
         public async Task Save()
         {

@@ -9,7 +9,7 @@ namespace ELearningPlatform.View_Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-
+        
         [PersonalData]
         public string Gender { get; set; }
         [PersonalData]
@@ -23,8 +23,8 @@ namespace ELearningPlatform.View_Models
         public string PhoneNumber { get; set; }
         [Required]
         [PersonalData]
-        [DataType(DataType.EmailAddress)]
-        public string Email { get; set; }
+		[DataType(DataType.EmailAddress)]
+		public string Email { get; set; }
         [Required]
         [PersonalData]
         [DataType(DataType.Password)]
@@ -32,9 +32,9 @@ namespace ELearningPlatform.View_Models
         [Required]
         [PersonalData]
         [Compare("Password")]
-        [DataType(DataType.PhoneNumber)]
-        public string ConfirmPassword { get; set; }
-        [uniqueInstructorName]
+		[DataType(DataType.PhoneNumber)]
+		public string ConfirmPassword { get; set; }
+		[uniqueInstructorName]
         public string UserName { get; set; }
         public string? Action { get; set; }
     }

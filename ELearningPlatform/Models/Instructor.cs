@@ -23,6 +23,7 @@ namespace ELearningPlatform.Models
         [ForeignKey(nameof(ApplicationUser))]
         public int? ApplicationUser_Id { get; set; }
         public ApplicationUser? User { get; set; }
+        public List<Instructor_Courses> Crs_Instructor { get; set; } = new List<Instructor_Courses>();
 
     }
 }

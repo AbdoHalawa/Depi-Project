@@ -62,5 +62,17 @@ namespace E_Learning.Controllers
             courseRepositery.RegisterCourse(StudentId, CourseId, codename);
             return RedirectToAction("Index");
         }
+        public IActionResult UpdateCourse(int id)
+        {
+            var course = courseRepositery.GetCourseById(id);
+            return View(course);
+        }
+        [HttpPost]
+        public IActionResult UpdateCourse(int id , Course course)
+        {
+            courseRepositery.UpdateCourse(id, course);
+            return RedirectToAction("Index");
+        }
+        public IActionResult DeleteCourse(int id) {  courseRepositery.DeleteCourse(id); return RedirectToAction("Index"); }
     }
 }

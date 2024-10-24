@@ -1,8 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 namespace ELearningPlatform.Models
 {
-    public class ELearningContext : DbContext
+    public class ELearningContext : IdentityDbContext<ApplicationUser, IdentityRole<int>, int>
     {
         public ELearningContext(DbContextOptions options) : base(options)
         {
@@ -19,6 +21,7 @@ namespace ELearningPlatform.Models
         public DbSet<Course_Lectures> Lectures { get; set; }
         public DbSet<Exam_Questions> Questions { get; set; }
         public DbSet<Course_Codes> Codes { get; set; }
+        public DbSet<Instructor_Courses> Instructor_Courses { get; set; }
         public DbSet<ApplicationUser> Users { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -33,12 +36,17 @@ namespace ELearningPlatform.Models
 
             // Configure one-to-one relationship between ApplicationUser and Admin
             modelBuilder.Entity<ApplicationUser>()
-                .HasOne(a => a.Admin)
-                .WithOne(admin => admin.User)
-                .HasForeignKey<Admin>(admin => admin.ApplicationUser_Id)
-                .OnDelete(DeleteBehavior.Cascade);  // Optional: Cascade delete
+                 .HasOne(a => a.Admin)
+                 .WithOne(admin => admin.User)
+                 .HasForeignKey<Admin>(admin => admin.ApplicationUser_Id)
+                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Other model configurations...
+
+            modelBuilder.Entity<ApplicationUser>()
+                 .HasOne(a => a.Student)
+                 .WithOne(student => student.User)
+                 .HasForeignKey<Student>(student => student.ApplicationUser_Id)
+                 .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<ApplicationUser>()
                  .HasOne(a => a.Instructor)
@@ -51,6 +59,12 @@ namespace ELearningPlatform.Models
                 .Property(u => u.Id)
                 .ValueGeneratedOnAdd();
             modelBuilder.Entity<Course_Students>().HasKey("Student_ID", "Course_ID", "Code_ID");
+            modelBuilder.Entity<Instructor_Courses>().HasKey("InstructorId", "CourseId");
+            modelBuilder.Entity<Course_Codes>()
+    .HasOne(cc => cc.Course)
+    .WithMany(c => c.Crs_Codes)
+    .HasForeignKey(cc => cc.CourseId)
+    .OnDelete(DeleteBehavior.Restrict);
         }
 
 

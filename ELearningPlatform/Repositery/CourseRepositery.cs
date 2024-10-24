@@ -53,7 +53,12 @@ namespace ELearningPlatform.Repositery
 
         public void UpdateCourse(int id, Course course)
         {
-            throw new NotImplementedException();
+            var oldcourse = GetCourseById(id);
+
+            oldcourse.Crs_Name = course.Crs_Name;
+            oldcourse.Crs_Description = course.Crs_Description;
+            oldcourse.Crs_Price = course.Crs_Price;
+            context.SaveChanges();
         }
 
         public void UpdateCoverPhotoToCourse()

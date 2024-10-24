@@ -3,7 +3,6 @@
     ViewData["Title"] = "AddCourse";
 }
 
-<h1>AddCourse</h1>
 @model Course
 <div class="container-xxl py-5">
     <div class="container">
@@ -16,7 +15,7 @@
                 <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="form-group">
                         <label asp-for="Crs_Name" class="form-label"></label>
-                        <input asp-for="Crs_Name" class="form-control" placeholder="Enter Course Name" />
+                        <input asp-for="Crs_Name" class="form-control" placeholder="Enter Description" />
                         <span asp-validation-for="Crs_Name" class="text-danger"></span>
                     </div>
                 </div>

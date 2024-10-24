@@ -8,18 +8,20 @@ namespace ELearningPlatform.Controllers
     {
         ICourseRepositery courseRepositery;
         IVideoRepositery videoRepositery;
-        public VideoController(ICourseRepositery courseRepositery, IVideoRepositery videoRepositery)
+        ILectureRepositery lectureRepositery;
+        public VideoController(ICourseRepositery courseRepositery, IVideoRepositery videoRepositery, ILectureRepositery lectureRepositery)
         {
             this.courseRepositery = courseRepositery;
             this.videoRepositery = videoRepositery;
+            this.lectureRepositery = lectureRepositery;
         }
         public IActionResult Index()
         {
             return View();
         }
-        public IActionResult AddVideoToCourse(int id)
+        public IActionResult AddVideoToLecture(int id)
         {
-            Course course = courseRepositery.GetCourseById(id);
+            Course_Lectures course = lectureRepositery.GetLectureById(id);
 
             var videoModel = new Lecture_Videos
             {
@@ -30,15 +32,16 @@ namespace ELearningPlatform.Controllers
         }
         [HttpPost]
         [AutoValidateAntiforgeryToken]
-        public IActionResult AddVideoToCourse(int id, string title, IFormFile VideoFile)
+        public IActionResult AddVideoToLecture(int id, string title, IFormFile VideoFile)
         {
+            var lecture = lectureRepositery.GetLectureById(id);
             if (VideoFile != null && VideoFile.Length > 0)
             {
                 try
                 {
                     // Call repository method to save the video
                     videoRepositery.AddVideoToLecture(id, VideoFile, title);
-                    return RedirectToAction("Index");
+                    return RedirectToAction("ViewLecture", "Lecture", new { id = lecture.Id });
                 }
                 catch (Exception ex)
                 {
@@ -57,14 +60,20 @@ namespace ELearningPlatform.Controllers
             var video = videoRepositery.GetVideoById(id);
             if (video != null)
             {
-                return File(video.VideoData, "video/mp4"); // Assuming VideoData is a byte array containing video content
+                // Create a memory stream from the byte array
+                var stream = new MemoryStream(video.VideoData);
+
+                // Return the video content as a FileStreamResult
+                return new FileStreamResult(stream, video.ContentType);
             }
             return NotFound();
         }
         public IActionResult DeleteVideoById(int id)
         {
+            var video = videoRepositery.GetVideoById(id);
+            var lecture = lectureRepositery.GetLectureById(video.LectureId);
             videoRepositery.DeleteVideo(id);
-            return RedirectToAction("index");
+            return RedirectToAction("ViewLecture", "Lecture", new { id = lecture.Id });
         }
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\ELearningPlatform.csproj": {}
+    "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\ELearningPlatform.csproj": {}
   },
   "projects": {
-    "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\ELearningPlatform.csproj": {
+    "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\ELearningPlatform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\ELearningPlatform.csproj",
+        "projectUniqueName": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\ELearningPlatform.csproj",
         "projectName": "ELearningPlatform",
-        "projectPath": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\ELearningPlatform.csproj",
-        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\obj\\",
+        "projectPath": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\ELearningPlatform.csproj",
+        "packagesPath": "C:\\Users\\Samir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Samir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -84,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

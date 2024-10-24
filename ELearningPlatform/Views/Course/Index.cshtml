@@ -31,8 +31,8 @@
                     <td>
                         <a asp-action="AddLectureToCourse" asp-controller="Lecture" asp-route-id="@course.Id" class="btn btn-outline-primary">Add Lecture</a>
                         <a asp-action="GetAllLecturesByCourseByAdmin" asp-controller="Lecture" asp-route-id="@course.Id" class="btn btn-outline-primary">View Lectures</a>
-                        <a asp-action="Edit" asp-route-id="@course.Id" class="btn btn-primary">Edit</a>
-                        <a asp-action="Delete" asp-route-id="@course.Id" class="btn btn-danger">Delete</a>
+                        <a asp-action="UpdateCourse" asp-route-id="@course.Id" class="btn btn-primary">Edit</a>
+                        <a asp-action="DeleteCourse" asp-route-id="@course.Id" class="btn btn-danger">Delete</a>
                     </td>
                 </tr>
             }

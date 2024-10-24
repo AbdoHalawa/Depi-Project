@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ELearningPlatform.Migrations
 {
     [DbContext(typeof(ELearningContext))]
-    [Migration("20241021175840_kk")]
-    partial class kk
+    [Migration("20241023184551_v101")]
+    partial class v101
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -168,7 +168,7 @@ namespace ELearningPlatform.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("CourseId")
+                    b.Property<int>("CourseId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -303,6 +303,21 @@ namespace ELearningPlatform.Migrations
                     b.ToTable("Instructors");
                 });
 
+            modelBuilder.Entity("ELearningPlatform.Models.Instructor_Courses", b =>
+                {
+                    b.Property<int>("InstructorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CourseId")
+                        .HasColumnType("int");
+
+                    b.HasKey("InstructorId", "CourseId");
+
+                    b.HasIndex("CourseId");
+
+                    b.ToTable("Instructor_Courses");
+                });
+
             modelBuilder.Entity("ELearningPlatform.Models.Lecture_Documents", b =>
                 {
                     b.Property<int>("Id")
@@ -423,12 +438,11 @@ namespace ELearningPlatform.Migrations
                     b.Property<string>("Street")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("UserId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("ApplicationUser_Id")
+                        .IsUnique()
+                        .HasFilter("[ApplicationUser_Id] IS NOT NULL");
 
                     b.ToTable("Students");
                 });
@@ -445,9 +459,13 @@ namespace ELearningPlatform.Migrations
 
             modelBuilder.Entity("ELearningPlatform.Models.Course_Codes", b =>
                 {
-                    b.HasOne("ELearningPlatform.Models.Course", null)
+                    b.HasOne("ELearningPlatform.Models.Course", "Course")
                         .WithMany("Crs_Codes")
-                        .HasForeignKey("CourseId");
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Course");
                 });
 
             modelBuilder.Entity("ELearningPlatform.Models.Course_Lectures", b =>
@@ -509,6 +527,25 @@ namespace ELearningPlatform.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("ELearningPlatform.Models.Instructor_Courses", b =>
+                {
+                    b.HasOne("ELearningPlatform.Models.Course", "Course")
+                        .WithMany("Crs_Instructor")
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ELearningPlatform.Models.Instructor", "Instructor")
+                        .WithMany("Crs_Instructor")
+                        .HasForeignKey("InstructorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Course");
+
+                    b.Navigation("Instructor");
+                });
+
             modelBuilder.Entity("ELearningPlatform.Models.Lecture_Documents", b =>
                 {
                     b.HasOne("ELearningPlatform.Models.Course_Lectures", "Lecture")
@@ -545,8 +582,9 @@ namespace ELearningPlatform.Migrations
             modelBuilder.Entity("ELearningPlatform.Models.Student", b =>
                 {
                     b.HasOne("ELearningPlatform.Models.ApplicationUser", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId");
+                        .WithOne("Student")
+                        .HasForeignKey("ELearningPlatform.Models.Student", "ApplicationUser_Id")
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.Navigation("User");
                 });
@@ -556,11 +594,15 @@ namespace ELearningPlatform.Migrations
                     b.Navigation("Admin");
 
                     b.Navigation("Instructor");
+
+                    b.Navigation("Student");
                 });
 
             modelBuilder.Entity("ELearningPlatform.Models.Course", b =>
                 {
                     b.Navigation("Crs_Codes");
+
+                    b.Navigation("Crs_Instructor");
 
                     b.Navigation("Crs_Lectures");
 
@@ -574,6 +616,11 @@ namespace ELearningPlatform.Migrations
                     b.Navigation("Exams");
 
                     b.Navigation("Videos");
+                });
+
+            modelBuilder.Entity("ELearningPlatform.Models.Instructor", b =>
+                {
+                    b.Navigation("Crs_Instructor");
                 });
 
             modelBuilder.Entity("ELearningPlatform.Models.Lecture_Exams", b =>

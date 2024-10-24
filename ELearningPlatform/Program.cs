@@ -19,7 +19,7 @@ namespace ELearningPlatform
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<ELearningContext>(optionBuilder =>
             {
-                optionBuilder.UseSqlServer("Data Source=.;Initial Catalog=ELearning;Integrated Security=True; Trust Server Certificate =True");
+                optionBuilder.UseSqlServer("Data Source=.;Initial Catalog=ELearningPlatform;Integrated Security=True; Trust Server Certificate =True");
             });
 
             builder.Services.AddIdentity<ApplicationUser, IdentityRole<int>>(options => {

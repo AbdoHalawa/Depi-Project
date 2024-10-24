@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IhDlBi2B7qTxhz5BDi3/+1BmDZ8I9p3NsDfXRU2rAfI=",
+  "Hash": "pC4lgSyX7mdPSA72Lon33KMC0gB7no9rnWfS6jbGxiI=",
   "Source": "ELearningPlatform",
   "BasePath": "_content/ELearningPlatform",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ELearningPlatform\\wwwroot",
       "Source": "ELearningPlatform",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ELearningPlatform.styles.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ELearningPlatform.styles.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "ELearningPlatform.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ELearningPlatform.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ELearningPlatform.styles.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ELearningPlatform.bundle.scp.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ELearningPlatform.bundle.scp.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "ELearningPlatform.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ELearningPlatform.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ELearningPlatform.bundle.scp.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -74,29 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\css\\Home.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\css\\SignUp.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
-      "BasePath": "_content/ELearningPlatform",
-      "RelativePath": "css/Home.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Home.css"
-    },
-    {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\css\\SignUp.css",
-      "SourceId": "ELearningPlatform",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "css/SignUp.css",
       "AssetKind": "All",
@@ -112,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\SignUp.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\css\\SignUp_Config.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\css\\SignUp_Config.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "css/SignUp_Config.css",
       "AssetKind": "All",
@@ -131,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\SignUp_Config.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\css\\site.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -150,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\css\\style.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -169,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\documents\\100fe3ba-c915-45d6-89df-7cef5012de5c_Mohamed Samir Saad _Final Assessment.pdf",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\documents\\100fe3ba-c915-45d6-89df-7cef5012de5c_Mohamed Samir Saad _Final Assessment.pdf",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "documents/100fe3ba-c915-45d6-89df-7cef5012de5c_Mohamed Samir Saad _Final Assessment.pdf",
       "AssetKind": "All",
@@ -188,10 +169,29 @@
       "OriginalItemSpec": "wwwroot\\documents\\100fe3ba-c915-45d6-89df-7cef5012de5c_Mohamed Samir Saad _Final Assessment.pdf"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\documents\\245eb3c1-361c-4b75-8858-9eb51099cfa9_Mohamed Samir Saad _Final Assessment.pdf",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\documents\\227bd7d7-b8aa-47d5-a0f1-0770d2a022ba_3931e868-8217-46dc-b27c-e3e927b933d1_عرض سعر غبور 5.pdf",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
+      "BasePath": "_content/ELearningPlatform",
+      "RelativePath": "documents/227bd7d7-b8aa-47d5-a0f1-0770d2a022ba_3931e868-8217-46dc-b27c-e3e927b933d1_عرض سعر غبور 5.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\documents\\227bd7d7-b8aa-47d5-a0f1-0770d2a022ba_3931e868-8217-46dc-b27c-e3e927b933d1_عرض سعر غبور 5.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\documents\\245eb3c1-361c-4b75-8858-9eb51099cfa9_Mohamed Samir Saad _Final Assessment.pdf",
+      "SourceId": "ELearningPlatform",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "documents/245eb3c1-361c-4b75-8858-9eb51099cfa9_Mohamed Samir Saad _Final Assessment.pdf",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\documents\\245eb3c1-361c-4b75-8858-9eb51099cfa9_Mohamed Samir Saad _Final Assessment.pdf"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\documents\\2a78a9ce-832e-4271-a625-3470e9c49a17_Mohamed_Samir_Saad_CV.pdf",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\documents\\2a78a9ce-832e-4271-a625-3470e9c49a17_Mohamed_Samir_Saad_CV.pdf",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "documents/2a78a9ce-832e-4271-a625-3470e9c49a17_Mohamed_Samir_Saad_CV.pdf",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\documents\\2a78a9ce-832e-4271-a625-3470e9c49a17_Mohamed_Samir_Saad_CV.pdf"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\documents\\322464ec-a5a4-4db4-802a-cdffea7ff67c_Mohamed Samir Saad _Final Assessment.pdf",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\documents\\322464ec-a5a4-4db4-802a-cdffea7ff67c_Mohamed Samir Saad _Final Assessment.pdf",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "documents/322464ec-a5a4-4db4-802a-cdffea7ff67c_Mohamed Samir Saad _Final Assessment.pdf",
       "AssetKind": "All",
@@ -245,10 +245,48 @@
       "OriginalItemSpec": "wwwroot\\documents\\322464ec-a5a4-4db4-802a-cdffea7ff67c_Mohamed Samir Saad _Final Assessment.pdf"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\documents\\fc58e84a-44d4-4752-9925-5f34580e2e2e_Mohamed_Samir_Saad_CV.pdf",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\documents\\3931e868-8217-46dc-b27c-e3e927b933d1_عرض سعر غبور 5.pdf",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
+      "BasePath": "_content/ELearningPlatform",
+      "RelativePath": "documents/3931e868-8217-46dc-b27c-e3e927b933d1_عرض سعر غبور 5.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\documents\\3931e868-8217-46dc-b27c-e3e927b933d1_عرض سعر غبور 5.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\documents\\439493d1-f66f-49eb-9aca-9818229ccaef_fc58e84a-44d4-4752-9925-5f34580e2e2e_Mohamed_Samir_Saad_CV.pdf",
+      "SourceId": "ELearningPlatform",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
+      "BasePath": "_content/ELearningPlatform",
+      "RelativePath": "documents/439493d1-f66f-49eb-9aca-9818229ccaef_fc58e84a-44d4-4752-9925-5f34580e2e2e_Mohamed_Samir_Saad_CV.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\documents\\439493d1-f66f-49eb-9aca-9818229ccaef_fc58e84a-44d4-4752-9925-5f34580e2e2e_Mohamed_Samir_Saad_CV.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\documents\\fc58e84a-44d4-4752-9925-5f34580e2e2e_Mohamed_Samir_Saad_CV.pdf",
+      "SourceId": "ELearningPlatform",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "documents/fc58e84a-44d4-4752-9925-5f34580e2e2e_Mohamed_Samir_Saad_CV.pdf",
       "AssetKind": "All",
@@ -264,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\documents\\fc58e84a-44d4-4752-9925-5f34580e2e2e_Mohamed_Samir_Saad_CV.pdf"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\documents\\Mohamed_Samir_Saad_USP Analysis.pdf",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\documents\\Mohamed_Samir_Saad_USP Analysis.pdf",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "documents/Mohamed_Samir_Saad_USP Analysis.pdf",
       "AssetKind": "All",
@@ -283,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\documents\\Mohamed_Samir_Saad_USP Analysis.pdf"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\favicon.ico",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -302,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\4722a73e49a82924757e9355f69b8866.jpg",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\img\\4722a73e49a82924757e9355f69b8866.jpg",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "img/4722a73e49a82924757e9355f69b8866.jpg",
       "AssetKind": "All",
@@ -321,86 +359,10 @@
       "OriginalItemSpec": "wwwroot\\img\\4722a73e49a82924757e9355f69b8866.jpg"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\about.jpg",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\img\\cat-2.jpg",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
-      "BasePath": "_content/ELearningPlatform",
-      "RelativePath": "img/about.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\about.jpg"
-    },
-    {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\carousel-1.jpg",
-      "SourceId": "ELearningPlatform",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
-      "BasePath": "_content/ELearningPlatform",
-      "RelativePath": "img/carousel-1.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\carousel-1.jpg"
-    },
-    {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\carousel-2.jpg",
-      "SourceId": "ELearningPlatform",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
-      "BasePath": "_content/ELearningPlatform",
-      "RelativePath": "img/carousel-2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\carousel-2.jpg"
-    },
-    {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\cat-1.jpg",
-      "SourceId": "ELearningPlatform",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
-      "BasePath": "_content/ELearningPlatform",
-      "RelativePath": "img/cat-1.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\cat-1.jpg"
-    },
-    {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\cat-2.jpg",
-      "SourceId": "ELearningPlatform",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "img/cat-2.jpg",
       "AssetKind": "All",
@@ -416,105 +378,10 @@
       "OriginalItemSpec": "wwwroot\\img\\cat-2.jpg"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\cat-3.jpg",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\img\\download (1).jpeg",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
-      "BasePath": "_content/ELearningPlatform",
-      "RelativePath": "img/cat-3.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\cat-3.jpg"
-    },
-    {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\cat-4.jpg",
-      "SourceId": "ELearningPlatform",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
-      "BasePath": "_content/ELearningPlatform",
-      "RelativePath": "img/cat-4.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\cat-4.jpg"
-    },
-    {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\course-1.jpg",
-      "SourceId": "ELearningPlatform",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
-      "BasePath": "_content/ELearningPlatform",
-      "RelativePath": "img/course-1.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\course-1.jpg"
-    },
-    {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\course-2.jpg",
-      "SourceId": "ELearningPlatform",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
-      "BasePath": "_content/ELearningPlatform",
-      "RelativePath": "img/course-2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\course-2.jpg"
-    },
-    {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\course-3.jpg",
-      "SourceId": "ELearningPlatform",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
-      "BasePath": "_content/ELearningPlatform",
-      "RelativePath": "img/course-3.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\course-3.jpg"
-    },
-    {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\download (1).jpeg",
-      "SourceId": "ELearningPlatform",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "img/download (1).jpeg",
       "AssetKind": "All",
@@ -530,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\img\\download (1).jpeg"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\download.jpeg",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\img\\download.jpeg",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "img/download.jpeg",
       "AssetKind": "All",
@@ -549,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\img\\download.jpeg"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\Instructor.png",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\img\\Instructor.png",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "img/Instructor.png",
       "AssetKind": "All",
@@ -568,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Instructor.png"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\Student.png",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\img\\Student.png",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "img/Student.png",
       "AssetKind": "All",
@@ -587,162 +454,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Student.png"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\team-1.jpg",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\js\\main.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
-      "BasePath": "_content/ELearningPlatform",
-      "RelativePath": "img/team-1.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\team-1.jpg"
-    },
-    {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\team-2.jpg",
-      "SourceId": "ELearningPlatform",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
-      "BasePath": "_content/ELearningPlatform",
-      "RelativePath": "img/team-2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\team-2.jpg"
-    },
-    {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\team-3.jpg",
-      "SourceId": "ELearningPlatform",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
-      "BasePath": "_content/ELearningPlatform",
-      "RelativePath": "img/team-3.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\team-3.jpg"
-    },
-    {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\team-4.jpg",
-      "SourceId": "ELearningPlatform",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
-      "BasePath": "_content/ELearningPlatform",
-      "RelativePath": "img/team-4.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\team-4.jpg"
-    },
-    {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\testimonial-1.jpg",
-      "SourceId": "ELearningPlatform",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
-      "BasePath": "_content/ELearningPlatform",
-      "RelativePath": "img/testimonial-1.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\testimonial-1.jpg"
-    },
-    {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\testimonial-2.jpg",
-      "SourceId": "ELearningPlatform",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
-      "BasePath": "_content/ELearningPlatform",
-      "RelativePath": "img/testimonial-2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\testimonial-2.jpg"
-    },
-    {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\testimonial-3.jpg",
-      "SourceId": "ELearningPlatform",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
-      "BasePath": "_content/ELearningPlatform",
-      "RelativePath": "img/testimonial-3.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\testimonial-3.jpg"
-    },
-    {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\img\\testimonial-4.jpg",
-      "SourceId": "ELearningPlatform",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
-      "BasePath": "_content/ELearningPlatform",
-      "RelativePath": "img/testimonial-4.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\testimonial-4.jpg"
-    },
-    {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\js\\main.js",
-      "SourceId": "ELearningPlatform",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "js/main.js",
       "AssetKind": "All",
@@ -758,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\js\\site.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -777,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\animate\\animate.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\animate\\animate.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/animate/animate.css",
       "AssetKind": "All",
@@ -796,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\animate\\animate.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\animate\\animate.min.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\animate\\animate.min.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/animate/animate.min.css",
       "AssetKind": "All",
@@ -815,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\animate\\animate.min.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -834,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -853,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -872,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -891,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -910,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -929,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -948,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -967,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -986,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1005,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1024,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1043,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1062,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1081,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1100,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1119,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1138,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1157,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1176,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1195,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1214,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1233,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1252,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1271,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1290,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1309,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1328,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1347,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1366,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1385,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1404,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1423,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1442,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1461,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1480,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1499,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1518,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1537,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1556,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1575,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1594,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1613,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1632,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1651,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1670,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\easing\\easing.js",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\easing\\easing.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/easing/easing.js",
       "AssetKind": "All",
@@ -1689,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\easing\\easing.js"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\easing\\easing.min.js",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\easing\\easing.min.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/easing/easing.min.js",
       "AssetKind": "All",
@@ -1708,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\easing\\easing.min.js"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1727,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1746,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1765,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1784,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1803,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1822,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1841,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1860,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1879,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1898,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1917,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1936,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/owlcarousel/assets/ajax-loader.gif",
       "AssetKind": "All",
@@ -1955,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/owlcarousel/assets/owl.carousel.css",
       "AssetKind": "All",
@@ -1974,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/owlcarousel/assets/owl.carousel.min.css",
       "AssetKind": "All",
@@ -1993,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.default.css",
       "AssetKind": "All",
@@ -2012,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.default.min.css",
       "AssetKind": "All",
@@ -2031,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.green.css",
       "AssetKind": "All",
@@ -2050,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.green.min.css",
       "AssetKind": "All",
@@ -2069,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/owlcarousel/assets/owl.video.play.png",
       "AssetKind": "All",
@@ -2088,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\owlcarousel\\LICENSE",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/owlcarousel/LICENSE",
       "AssetKind": "All",
@@ -2107,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\LICENSE"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/owlcarousel/owl.carousel.js",
       "AssetKind": "All",
@@ -2126,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/owlcarousel/owl.carousel.min.js",
       "AssetKind": "All",
@@ -2145,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\waypoints\\links.php",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\waypoints\\links.php",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/waypoints/links.php",
       "AssetKind": "All",
@@ -2164,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\waypoints\\links.php"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\waypoints\\waypoints.min.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/waypoints/waypoints.min.js",
       "AssetKind": "All",
@@ -2183,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\wow\\wow.js",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\wow\\wow.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/wow/wow.js",
       "AssetKind": "All",
@@ -2202,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\wow\\wow.js"
     },
     {
-      "Identity": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\lib\\wow\\wow.min.js",
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\lib\\wow\\wow.min.js",
       "SourceId": "ELearningPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My Learning\\BakEnd.NET\\Dot Net Course\\Depi-Project-main\\Depi-Project-main\\ELearningPlatform\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
       "BasePath": "_content/ELearningPlatform",
       "RelativePath": "lib/wow/wow.min.js",
       "AssetKind": "All",
@@ -2219,6 +1934,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\uploads\\bandicam 2024-04-23 10-22-47-930.mp4",
+      "SourceId": "ELearningPlatform",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samir\\source\\repos\\ELearningPlatform\\ELearningPlatform\\wwwroot\\",
+      "BasePath": "_content/ELearningPlatform",
+      "RelativePath": "uploads/bandicam 2024-04-23 10-22-47-930.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\bandicam 2024-04-23 10-22-47-930.mp4"
     }
   ]
 }

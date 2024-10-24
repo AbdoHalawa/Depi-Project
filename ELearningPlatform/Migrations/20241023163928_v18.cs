@@ -5,7 +5,7 @@
 namespace ELearningPlatform.Migrations
 {
     /// <inheritdoc />
-    public partial class kk : Migration
+    public partial class v18 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

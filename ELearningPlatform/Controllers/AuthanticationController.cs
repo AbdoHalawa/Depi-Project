@@ -67,7 +67,6 @@ namespace ELearningPlatform.Controllers
                 {
                     _instructorRepo.Save();
                     await _signInManager.SignInAsync(user, false);
-                    await _userManager.AddToRoleAsync(user, "Instructor");
                     return RedirectToAction("Index", "Home");
                 }
                 else

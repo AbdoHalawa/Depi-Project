@@ -1,44 +1,48 @@
 ﻿@model Course_Lectures
+
 <div class="">
     <div class="row">
         <!-- Left Column: List of Videos, Documents, and Exams -->
         <div class="col-4 p-3 bg-primary shadow rounded sticky-top" style="top: 10px;">
-            <h5 class="mb-4 text-center text-dark border-bottom pb-2">Videos</h5>
+            <h5 class="mb-4 text-center text-white border-bottom pb-2">Videos</h5>
             @foreach (var video in Model.Videos)
             {
                 <div class="card mb-3 border-0 shadow-sm">
                     <div class="card-body d-flex justify-content-between align-items-center">
                         <span class="fw-bold">@video.Title</span>
-                        <button class="btn btn-sm btn-outline-primary view-content"
-                                data-url="/Video/GetVideoById/@video.Id">
+                        <button class="btn btn-sm btn-outline-light view-content"
+                                data-url="@Url.Action("GetVideoById", "Video", new { id = video.Id })"
+                                data-type="video">
                             View
                         </button>
                     </div>
                 </div>
             }
 
-            <h5 class="mb-4 mt-5 text-center text-dark border-bottom pb-2">Documents</h5>
+            <h5 class="mb-4 mt-5 text-center text-white border-bottom pb-2">Documents</h5>
             @foreach (var document in Model.Documents)
             {
                 <div class="card mb-3 border-0 shadow-sm">
                     <div class="card-body d-flex justify-content-between align-items-center">
                         <span class="fw-bold">@document.Title</span>
-                        <button class="btn btn-sm btn-outline-primary view-content"
-                                data-url="/Document/GetDocumentById/@document.Id">
+                        <button class="btn btn-sm btn-outline-light view-content"
+                                data-url="@Url.Action("GetDocumentById", "Document", new { id = document.Id })"
+                                data-type="document">
                             View
                         </button>
                     </div>
                 </div>
             }
 
-            <h5 class="mb-4 mt-5 text-center text-dark border-bottom pb-2">Exams</h5>
+            <h5 class="mb-4 mt-5 text-center text-white border-bottom pb-2">Exams</h5>
             @foreach (var exam in Model.Exams)
             {
                 <div class="card mb-3 border-0 shadow-sm">
                     <div class="card-body d-flex justify-content-between align-items-center">
                         <span class="fw-bold">@exam.Name</span>
-                        <button class="btn btn-sm btn-outline-primary view-content"
-                                data-url="/Exam/GetExamById/@exam.Id">
+                        <button class="btn btn-sm btn-outline-light view-content"
+                                data-url="@Url.Action("GetExamById", "Exam", new { id = exam.Id })"
+                                data-type="exam">
                             View
                         </button>
                     </div>
@@ -55,6 +59,7 @@
     </div>
 </div>
 
+<!-- jQuery for content loading -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(document).ready(function () {
@@ -63,6 +68,7 @@
             e.preventDefault(); // Prevent default behavior
 
             var url = $(this).data('url'); // Get the URL from the button's data-url attribute
+            var type = $(this).data('type'); // Get the content type (video, document, exam)
 
             // Show a loading spinner in the content display area
             $('#content-display').html(`
@@ -73,15 +79,52 @@
                     </div>
                 `);
 
-            // Load the content into the display area
-            $.get(url, function (data) {
-                $('#content-display').html(data); // Replace the content with the response
-            }).fail(function () {
-                $('#content-display').html('<p class="text-danger">Error loading content. Please try again.</p>');
-            });
+            // Load the content based on the type
+            if (type === 'video') {
+                // For video content, embed the video player
+                $.get(url, function () {
+                    $('#content-display').html(`
+                            <video width="100%" controls class="rounded">
+                                <source src="${url}" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        `);
+                }).fail(function () {
+                    $('#content-display').html('<p class="text-danger">Error loading video. Please try again.</p>');
+                });
+            } else if (type === 'document') {
+                // For document content, check if it's a PDF for inline viewing
+                $.get(url, function (data) {
+                    if (url.endsWith('.pdf')) {
+                        // Embed PDF for inline viewing
+                        $('#content-display').html(`
+                                <embed src="${url}" width="100%" height="600px" type="application/pdf" class="rounded" />
+                            `);
+                    } else {
+                        // For non-PDF documents, provide a download link
+                        $('#content-display').html(`
+                                <div class="text-center">
+                                    <h5 class="mb-3">Document</h5>
+                                    <a href="${url}" class="btn btn-primary" download>Download Document</a>
+                                </div>
+                            `);
+                    }
+                }).fail(function () {
+                    $('#content-display').html('<p class="text-danger">Error loading document. Please try again.</p>');
+                });
+            } else {
+                // Load other types of content (exams, etc.)
+                $.get(url, function (data) {
+                    $('#content-display').html(data); // Replace the content with the response
+                }).fail(function () {
+                    $('#content-display').html('<p class="text-danger">Error loading content. Please try again.</p>');
+                });
+            }
         });
     });
 </script>
+
+
 
 
 
