@@ -23,7 +23,10 @@ namespace ELearningPlatform.Models
             public List<Course_Lectures> Crs_Lectures { get; set; } = new List<Course_Lectures>();
             public List<Course_Students> Crs_Students { get; set; } = new List<Course_Students>();
             public List<Course_Codes> Crs_Codes { get; set;} = new List<Course_Codes>();
-            public List<Instructor_Courses> Crs_Instructor { get; set; } = new List<Instructor_Courses>();
+            [ForeignKey("Instructor")]
+            public int InstructorId { get; set; }
+            public Instructor Instructor {  get; set; } 
+            public List<Student_Exams> StudentExams { get; set; } = new List<Student_Exams>();
     }
     }
 

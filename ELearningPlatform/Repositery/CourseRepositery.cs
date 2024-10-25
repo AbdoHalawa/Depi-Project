@@ -90,6 +90,10 @@ namespace ELearningPlatform.Repositery
             context.Course_Students.Add(courseStudent);
             context.SaveChanges();
         }
+        public List<Course> GetCoursesByInstructor(int InstructorId)
+        {
+            return context.Courses.Where(c=>c.InstructorId == InstructorId).ToList();
+        }
     }
 }
 

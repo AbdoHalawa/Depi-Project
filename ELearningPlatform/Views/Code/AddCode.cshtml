@@ -1,9 +1,9 @@
 ﻿@model Course_Codes
 
 @{
-    // Initialize SelectList properly, even if ViewBag.Courses is empty
+    // Safely initialize SelectList even if ViewBag.Courses is empty
     var coursesList = ViewBag.Courses as IEnumerable<Course> ?? Enumerable.Empty<Course>();
-    SelectList courses = new SelectList(ViewBag.Courses, "Id", "Crs_Name");
+    SelectList courses = new SelectList(coursesList, "Id", "Crs_Name");
 }
 
 <div class="container-xxl py-5">
@@ -25,6 +25,7 @@
                     <div class="form-group">
                         <label class="form-label">Code</label>
                         <input type="text" asp-for="Code" class="form-control" placeholder="Enter Code" required />
+                        <span asp-validation-for="Code" class="text-danger"></span>
                     </div>
                 </div>
 
@@ -35,6 +36,7 @@
                         <select asp-for="CourseId" asp-items="courses" class="form-control">
                             <option value="">-- Select a Course --</option>
                         </select>
+                        <span asp-validation-for="CourseId" class="text-danger"></span>
                     </div>
                 </div>
 
@@ -46,5 +48,6 @@
         </form>
     </div>
 </div>
+
 
 

@@ -21,8 +21,9 @@ namespace ELearningPlatform.Models
         public DbSet<Course_Lectures> Lectures { get; set; }
         public DbSet<Exam_Questions> Questions { get; set; }
         public DbSet<Course_Codes> Codes { get; set; }
-        public DbSet<Instructor_Courses> Instructor_Courses { get; set; }
         public DbSet<ApplicationUser> Users { get; set; }
+        public DbSet<Students_QuestionsAnswers> Students_QuestionsAnswers { get; set; }
+        public DbSet<Student_Exams> Student_Exams { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -59,13 +60,42 @@ namespace ELearningPlatform.Models
                 .Property(u => u.Id)
                 .ValueGeneratedOnAdd();
             modelBuilder.Entity<Course_Students>().HasKey("Student_ID", "Course_ID", "Code_ID");
-            modelBuilder.Entity<Instructor_Courses>().HasKey("InstructorId", "CourseId");
+            modelBuilder.Entity<Student_Exams>().HasKey("StudentId", "CourseId", "ExamId","LectureId");
+            // Configure relationships for Student_Exams
+            modelBuilder.Entity<Student_Exams>()
+                .HasOne(se => se.Student)
+                .WithMany(s => s.Student_Exams)
+                .HasForeignKey(se => se.StudentId)
+                .OnDelete(DeleteBehavior.Restrict); // Restrict to avoid cycles
+
+            modelBuilder.Entity<Student_Exams>()
+                .HasOne(se => se.Exam)
+                .WithMany(e => e.StudentExams)
+                .HasForeignKey(se => se.ExamId)
+                .OnDelete(DeleteBehavior.Restrict); // Restrict to avoid cycles
+
+            modelBuilder.Entity<Student_Exams>()
+                .HasOne(se => se.Lecture)
+                .WithMany(l => l.StudentExams)
+                .HasForeignKey(se => se.LectureId)
+                .OnDelete(DeleteBehavior.Restrict); // Restrict to avoid cycles
+            modelBuilder.Entity<Course>()
+       .HasOne(c => c.Instructor)
+       .WithMany(i => i.Courses)
+       .HasForeignKey(c => c.InstructorId)
+       .OnDelete(DeleteBehavior.Restrict); // or DeleteBehavior.NoAction
+            modelBuilder.Entity<Student_Exams>()
+                .HasOne(se => se.Course)
+                .WithMany(c => c.StudentExams)
+                .HasForeignKey(se => se.CourseId)
+                .OnDelete(DeleteBehavior.Restrict);
             modelBuilder.Entity<Course_Codes>()
     .HasOne(cc => cc.Course)
     .WithMany(c => c.Crs_Codes)
     .HasForeignKey(cc => cc.CourseId)
     .OnDelete(DeleteBehavior.Restrict);
         }
+
 
 
     }

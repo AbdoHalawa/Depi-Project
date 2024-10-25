@@ -1,6 +1,7 @@
 ﻿using ELearningPlatform.Models;
 using ELearningPlatform.Repositery;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ELearningPlatform.Controllers
 {
@@ -44,27 +45,36 @@ namespace ELearningPlatform.Controllers
         [HttpPost]
         public IActionResult AddCode(Course_Codes code)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                try
-                {
-                    // Save the code data to the database
-                    codeRepositery.AddCode(code);
-                    return RedirectToAction("Index");
-                }
-                catch (Exception ex)
-                {
-                    // Pass the error message to the view
-                    ViewBag.ErrorMessage = $"Error saving code: {ex.Message}";
-                }
+                // If model validation fails, return the form with validation messages
+                ViewBag.Courses = new SelectList(courseRepositery.GetAllCourses(), "Id", "Crs_Name");
+                return View(code);
             }
 
-            // Ensure ViewBag.Courses is populated again if ModelState is invalid
-            var courses = courseRepositery.GetAllCourses();
-            ViewBag.Courses = courses ?? new List<Course>(); // Empty list instead of null
+            try
+            {
+                // Make sure the 'Code' property is not empty
+                if (string.IsNullOrWhiteSpace(code.Code))
+                {
+                    ModelState.AddModelError("Code", "Code is required.");
+                    ViewBag.Courses = new SelectList(courseRepositery.GetAllCourses(), "Id", "Crs_Name");
+                    return View(code);
+                }
 
-            return View(code);
+                // Save the code to the repository
+                codeRepositery.AddCode(code);
+                return RedirectToAction("Index"); // Or any other action after saving
+            }
+            catch (Exception ex)
+            {
+                // Log the error and return an error message to the user
+                ViewBag.ErrorMessage = "An error occurred while saving the code.";
+                ViewBag.Courses = new SelectList(courseRepositery.GetAllCourses(), "Id", "Crs_Name");
+                return View(code);
+            }
         }
+
 
 
 

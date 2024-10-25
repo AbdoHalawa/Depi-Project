@@ -9,5 +9,10 @@ namespace ELearningPlatform.Repositery
         void DeleteExam(int id);
         Lecture_Exams GetExamById(int id);
         void AddQuestionsToExam(int id, List<Exam_Questions> examQuestions);
+        void SubmitExam(int studentId, int examId, Dictionary<int, string> selectedAnswers);
+        List<Students_QuestionsAnswers> GetExamResults(int studentId, int examId);
+        void SaveStudentExam(Student_Exams studentExam);
+        void SaveStudentGrade(int studentId, int examId, int grade);
+        Student_Exams? GetStudentExam(int studentId, int examId);
     }
 }

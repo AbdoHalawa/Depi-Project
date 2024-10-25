@@ -14,6 +14,7 @@ namespace ELearningPlatform.Repositery
         void RegisterCourse(int StudentId, int CourseId, string codename);
         void AddCoverPhotoToCourse();
         void UpdateCoverPhotoToCourse();
+        List<Course> GetCoursesByInstructor(int instructorId);
 
 
     }

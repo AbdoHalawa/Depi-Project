@@ -90,6 +90,48 @@ namespace ELearningPlatform.Controllers
         {
             return View("Student_signup", student);
         }
+        //[HttpPost]
+        //public async Task<IActionResult> Student_Register(StudentAccount? student)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        var user = new ApplicationUser
+        //        {
+        //            UserName = student.UserName,
+        //            Email = student.Email,
+        //            PhoneNumber = student.PhoneNumber,
+        //            PasswordHash = student.Password
+        //        };
+        //        var newStudent = new Student
+        //        {
+        //            Name = student.Name,
+        //            Country = student.Country,
+        //            Gender = student.Gender,
+        //            City = student.City,
+        //            Street = student.Street
+        //        };
+        //        var result = await _studentRepo.Add_Student(newStudent, user);
+        //        if (result.Succeeded)
+        //        {
+        //            _instructorRepo.Save();
+        //            await _signInManager.SignInAsync(user, false);
+        //            await _userManager.AddToRoleAsync(user, "Instructor");
+        //            return RedirectToAction("Index", "Home");
+        //        }
+        //        else
+        //        {
+        //            foreach (var ItemError in result.Errors)
+        //            {
+        //                ModelState.AddModelError("Password", ItemError.Description);
+        //            }
+        //            return View("Student_signup", student);
+        //        }
+
+
+        //    }
+        //    return View("Student_signup", student);
+
+        //}
         [HttpPost]
         public async Task<IActionResult> Student_Register(StudentAccount? student)
         {

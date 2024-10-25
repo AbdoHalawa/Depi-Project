@@ -7,24 +7,60 @@ namespace E_Learning.Controllers
     public class CourseController : Controller
     {
         ICourseRepositery courseRepositery;
-        public CourseController(ICourseRepositery courseRepositery) {
+        IinstructorRepo instructorRepositery;
+        public CourseController(ICourseRepositery courseRepositery, IinstructorRepo instructorRepositery)
+        {
             this.courseRepositery = courseRepositery;
+            this.instructorRepositery = instructorRepositery;
         }
         public IActionResult Index()
         {
             List<Course> courses = courseRepositery.GetAllCourses();
             return View(courses);
         }
-        public IActionResult AddCourse(Course course)
+        public IActionResult AddCourse(int id, Course course)
         {
+            var intructor = instructorRepositery.Get_InstructorByID(id);
             if (string.IsNullOrWhiteSpace(course.Crs_Name))
             {
                 ModelState.AddModelError("Crs_Name", "Course name is required.");
                 return View(course);
             }
+            var coursee = new Course
+            {
+                Crs_Name = course.Crs_Name,
+                Crs_Code = course.Crs_Code,
+                Crs_Cover_Path = course.Crs_Cover_Path,
+                Crs_Cover = course.Crs_Cover,
 
-            courseRepositery.AddCourse(course);
+                Crs_Description = course.Crs_Description,
+                Crs_Price = course.Crs_Price,
+                InstructorId = id
+            };
+            courseRepositery.AddCourse(coursee);
             return RedirectToAction("Index");
+        }
+        public IActionResult AddCourseByInstructor(int id,Course course)
+        {
+            var intructor = instructorRepositery.Get_InstructorByID(id);
+            if (string.IsNullOrWhiteSpace(course.Crs_Name))
+            {
+                ModelState.AddModelError("Crs_Name", "Course name is required.");
+                return View(course);
+            }
+            var coursee = new Course
+            {
+                Crs_Name = course.Crs_Name,
+                Crs_Code = course.Crs_Code,
+                Crs_Cover_Path = course.Crs_Cover_Path,
+                Crs_Cover = course.Crs_Cover,
+                
+                Crs_Description = course.Crs_Description,
+                Crs_Price = course.Crs_Price,
+                InstructorId = id
+            };
+            courseRepositery.AddCourse(coursee);
+            return RedirectToAction("GetCoursesByInstructor");
         }
 
 
@@ -74,5 +110,11 @@ namespace E_Learning.Controllers
             return RedirectToAction("Index");
         }
         public IActionResult DeleteCourse(int id) {  courseRepositery.DeleteCourse(id); return RedirectToAction("Index"); }
+        public IActionResult GetCoursesByInstructor(int id)
+        {
+            var courses = courseRepositery.GetCoursesByInstructor(id);
+            return View(courses);
+        }
+
     }
 }

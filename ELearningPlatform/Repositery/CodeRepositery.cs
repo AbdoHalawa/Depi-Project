@@ -19,9 +19,17 @@ namespace ELearningPlatform.Repositery
         }
         public void AddCode(Course_Codes code)
         {
-            context.Codes.Add(code);
-            context.SaveChanges();
+            if (code != null && !string.IsNullOrWhiteSpace(code.Code))
+            {
+                context.Codes.Add(code);
+                context.SaveChanges();
+            }
+            else
+            {
+                throw new Exception("Code cannot be null or empty.");
+            }
         }
+
         public void DeleteCode(int id)
         {
             var code = context.Codes.FirstOrDefault(c=>c.Id == id);

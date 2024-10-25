@@ -70,6 +70,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEFkZENvdXJzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Samir/source/repos/ELearningPlatform/ELearningPlatform/Views/Course/GetCoursesByInstructor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEdldENvdXJzZXNCeUluc3RydWN0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Samir/source/repos/ELearningPlatform/ELearningPlatform/Views/Course/GetCoursesByStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEdldENvdXJzZXNCeVN0dWRlbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -114,12 +118,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxHZXRFeGFtQnlJZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Samir/source/repos/ELearningPlatform/ELearningPlatform/Views/Exam/TakeExam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxUYWtlRXhhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Samir/source/repos/ELearningPlatform/ELearningPlatform/Views/Exam/_ExamResultPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxfRXhhbVJlc3VsdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Samir/source/repos/ELearningPlatform/ELearningPlatform/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Samir/source/repos/ELearningPlatform/ELearningPlatform/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Samir/source/repos/ELearningPlatform/ELearningPlatform/Views/Instructor/ViewDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxWaWV3RGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Samir/source/repos/ELearningPlatform/ELearningPlatform/Views/Lecture/AddLectureToCourse.cshtml]

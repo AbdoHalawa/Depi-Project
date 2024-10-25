@@ -4,6 +4,7 @@ using ELearningPlatform.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ELearningPlatform.Migrations
 {
     [DbContext(typeof(ELearningContext))]
-    partial class ELearningContextModelSnapshot : ModelSnapshot
+    [Migration("20241025072710_v200")]
+    partial class v200
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -161,12 +164,7 @@ namespace ELearningPlatform.Migrations
                     b.Property<decimal>("Crs_Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("InstructorId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("InstructorId");
 
                     b.ToTable("Course");
                 });
@@ -321,6 +319,21 @@ namespace ELearningPlatform.Migrations
                     b.ToTable("Instructors");
                 });
 
+            modelBuilder.Entity("ELearningPlatform.Models.Instructor_Courses", b =>
+                {
+                    b.Property<int>("InstructorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CourseId")
+                        .HasColumnType("int");
+
+                    b.HasKey("InstructorId", "CourseId");
+
+                    b.HasIndex("CourseId");
+
+                    b.ToTable("Instructor_Courses");
+                });
+
             modelBuilder.Entity("ELearningPlatform.Models.Lecture_Documents", b =>
                 {
                     b.Property<int>("Id")
@@ -425,6 +438,10 @@ namespace ELearningPlatform.Migrations
                     b.Property<string>("Country")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Gender")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -447,37 +464,6 @@ namespace ELearningPlatform.Migrations
                         .HasFilter("[ApplicationUser_Id] IS NOT NULL");
 
                     b.ToTable("Students");
-                });
-
-            modelBuilder.Entity("ELearningPlatform.Models.Student_Exams", b =>
-                {
-                    b.Property<int>("StudentId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("CourseId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ExamId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("LectureId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime?>("Date")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int?>("Grade")
-                        .HasColumnType("int");
-
-                    b.HasKey("StudentId", "CourseId", "ExamId", "LectureId");
-
-                    b.HasIndex("CourseId");
-
-                    b.HasIndex("ExamId");
-
-                    b.HasIndex("LectureId");
-
-                    b.ToTable("Student_Exams");
                 });
 
             modelBuilder.Entity("ELearningPlatform.Models.Students_QuestionsAnswers", b =>
@@ -653,17 +639,6 @@ namespace ELearningPlatform.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("ELearningPlatform.Models.Course", b =>
-                {
-                    b.HasOne("ELearningPlatform.Models.Instructor", "Instructor")
-                        .WithMany("Courses")
-                        .HasForeignKey("InstructorId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Instructor");
-                });
-
             modelBuilder.Entity("ELearningPlatform.Models.Course_Codes", b =>
                 {
                     b.HasOne("ELearningPlatform.Models.Course", "Course")
@@ -734,6 +709,25 @@ namespace ELearningPlatform.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("ELearningPlatform.Models.Instructor_Courses", b =>
+                {
+                    b.HasOne("ELearningPlatform.Models.Course", "Course")
+                        .WithMany("Crs_Instructor")
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ELearningPlatform.Models.Instructor", "Instructor")
+                        .WithMany("Crs_Instructor")
+                        .HasForeignKey("InstructorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Course");
+
+                    b.Navigation("Instructor");
+                });
+
             modelBuilder.Entity("ELearningPlatform.Models.Lecture_Documents", b =>
                 {
                     b.HasOne("ELearningPlatform.Models.Course_Lectures", "Lecture")
@@ -775,41 +769,6 @@ namespace ELearningPlatform.Migrations
                         .OnDelete(DeleteBehavior.Cascade);
 
                     b.Navigation("User");
-                });
-
-            modelBuilder.Entity("ELearningPlatform.Models.Student_Exams", b =>
-                {
-                    b.HasOne("ELearningPlatform.Models.Course", "Course")
-                        .WithMany("StudentExams")
-                        .HasForeignKey("CourseId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("ELearningPlatform.Models.Lecture_Exams", "Exam")
-                        .WithMany("StudentExams")
-                        .HasForeignKey("ExamId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("ELearningPlatform.Models.Course_Lectures", "Lecture")
-                        .WithMany("StudentExams")
-                        .HasForeignKey("LectureId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("ELearningPlatform.Models.Student", "Student")
-                        .WithMany("Student_Exams")
-                        .HasForeignKey("StudentId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Course");
-
-                    b.Navigation("Exam");
-
-                    b.Navigation("Lecture");
-
-                    b.Navigation("Student");
                 });
 
             modelBuilder.Entity("ELearningPlatform.Models.Students_QuestionsAnswers", b =>
@@ -895,11 +854,11 @@ namespace ELearningPlatform.Migrations
                 {
                     b.Navigation("Crs_Codes");
 
+                    b.Navigation("Crs_Instructor");
+
                     b.Navigation("Crs_Lectures");
 
                     b.Navigation("Crs_Students");
-
-                    b.Navigation("StudentExams");
                 });
 
             modelBuilder.Entity("ELearningPlatform.Models.Course_Lectures", b =>
@@ -908,28 +867,22 @@ namespace ELearningPlatform.Migrations
 
                     b.Navigation("Exams");
 
-                    b.Navigation("StudentExams");
-
                     b.Navigation("Videos");
                 });
 
             modelBuilder.Entity("ELearningPlatform.Models.Instructor", b =>
                 {
-                    b.Navigation("Courses");
+                    b.Navigation("Crs_Instructor");
                 });
 
             modelBuilder.Entity("ELearningPlatform.Models.Lecture_Exams", b =>
                 {
                     b.Navigation("ExamQuestions");
-
-                    b.Navigation("StudentExams");
                 });
 
             modelBuilder.Entity("ELearningPlatform.Models.Student", b =>
                 {
                     b.Navigation("Course_Students");
-
-                    b.Navigation("Student_Exams");
                 });
 #pragma warning restore 612, 618
         }

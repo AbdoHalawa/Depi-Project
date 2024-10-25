@@ -9,7 +9,6 @@ namespace ELearningPlatform.Models
         [Key]
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Email {  get; set; }
         public string PhoneNumber {  get; set; }
 
         [PersonalData]
@@ -24,6 +23,7 @@ namespace ELearningPlatform.Models
         [PersonalData]
         public string? Country { get; set; }
         public List<Course_Students> Course_Students { get; set; } = new List<Course_Students>();
+        public List<Student_Exams> Student_Exams { get; set; } = new List<Student_Exams>();
         [ForeignKey(nameof(ApplicationUser))]
         public int? ApplicationUser_Id { get; set; }
         public ApplicationUser? User { get; set; }

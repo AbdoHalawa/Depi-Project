@@ -9,6 +9,7 @@ namespace ELearningPlatform.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public decimal Price {  get; set; }
+        public bool? PrequestiesExam {  get; set; }
         public DateTime Date { get; set; }
         [ForeignKey("Course")]
         public int CourseId {  get; set; }
@@ -16,5 +17,6 @@ namespace ELearningPlatform.Models
         public List<Lecture_Videos> Videos { get; set; } = new List<Lecture_Videos>();
         public List<Lecture_Documents> Documents { get; set; } = new List<Lecture_Documents>();
         public List<Lecture_Exams> Exams { get; set; } = new List<Lecture_Exams>();
+        public List<Student_Exams> StudentExams { get; set; } = new List<Student_Exams>();
     }
 }
